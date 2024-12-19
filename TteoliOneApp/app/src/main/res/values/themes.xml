@@ -1,0 +1,16 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.TteoliOneApp" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorOnPrimary">@color/white</item>
+<!--      <item name="android:background">@color/white</item>-->
+
+        <!-- 상태바 흰색으로 설정 -->
+        <item name="android:statusBarColor">@color/white</item>
+        <item name="android:windowTranslucentStatus">false</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+
+    <style name="Theme.TteoliOneApp" parent="Base.Theme.TteoliOneApp" />
+</resources>
